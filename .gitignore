@@ -1,20 +1,15 @@
 # Maven
 target/
-
 # NetBeans
 nbproject/private/
 build/
 dist/
-
 # IntelliJ
 .idea/
-
 # Java
 *.class
-
 # Logs
 *.log
-
 # Local secrets
 .env
 .env.*

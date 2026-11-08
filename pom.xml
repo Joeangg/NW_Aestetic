@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
-        <exec.mainClass>com.mycompany.nw.aesthetic.NwAesthetic</exec.mainClass>
+        <exec.mainClass>nw.aesthetic.NwAesthetic</exec.mainClass>
     </properties>
     <dependencies>
     <dependency>
@@ -16,5 +16,10 @@
         <artifactId>mysql-connector-j</artifactId>
         <version>9.5.0</version>
     </dependency>
-</dependencies>
+    <dependency>
+        <groupId>org.midrot</groupId>
+        <artifactId>jbcrypt</artifactId>
+        <version>0.4</version>
+    </dependency>
+ </dependencies>
 </project>
