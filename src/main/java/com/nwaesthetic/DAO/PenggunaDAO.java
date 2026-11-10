@@ -9,8 +9,8 @@ import java.sql.SQLException;
 
 public class PenggunaDAO{
     public Pengguna cariBerdasarkanUsername(String username){
-        String sql = "SELECT id,username,password,role,status"
-                + "FROM pengguna WHERE username = ? LIMIT 1";
+       String sql = "SELECT id, username, password, role, status "
+           + "FROM pengguna WHERE username = ? LIMIT 1";
         try (Connection conn= DatabaseConnection.getConnection();
                 PreparedStatement stmt = conn.prepareStatement(sql)){
             
